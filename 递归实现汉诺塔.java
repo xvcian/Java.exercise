@@ -23,13 +23,10 @@ public class TowerOfHanno {
         char A = 'A';
         char B = 'B';
         char C = 'C';
-        System.out.println("******************************************************************************************");
-        System.out.println("这是汉诺塔问题（把A塔上编号从小号到大号的圆盘从A塔通过B辅助塔移动到C塔上去");
-        System.out.println("******************************************************************************************");
         System.out.print("请输入圆盘的个数：");
         int disks = input.nextInt();
         TowerOfHanno.hanno(disks, A, B, C);
-        System.out.println(">>移动了" + m + "次，把A上的圆盘都移动到了C上");
+        System.out.println("移动了" + m + "次，把A上的圆盘都移动到了C上");
         input.close();
     }
 
